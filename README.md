@@ -1,4 +1,4 @@
-# Android device tree for ZYB ZPD1321 (tb8786p1_64_k510_wifi)
+# Android device tree for ZYB ZPD1221 (tb8786p1_64_k510_wifi)
 
 ```
 #
