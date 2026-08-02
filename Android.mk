@@ -1,10 +1,12 @@
-# Android device tree for ZYB ZPD1321 (tb8786p1_64_k510_wifi)
-
-```
 #
 # Copyright (C) 2026 The Android Open Source Project
 # Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-```
+
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),tb8786p1_64_k510_wifi)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
